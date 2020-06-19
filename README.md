@@ -86,6 +86,14 @@ For this example, check out the branch based on the yocto-3.1 release:
      $ git checkout tags/yocto-3.1 -b my-yocto-3.1
      Switched to a new branch 'my-yocto-3.1'
             
+<p align="center">
+  <img src="https://github.com/SuruchiParashar/Yocto-Project/blob/master/4.PNG" />
+</p>
+
+<p align="center"?
+<img src="https://github.com/SuruchiParashar/Yocto-Project/blob/master/9.PNG">
+</p>
+
 The previous Git checkout command creates a local branch named my-yocto-3.1. The files available to you in that branch exactly match the repository's files in the "dunfell" development branch at the time of the Yocto Project yocto-3.1 release.
 
 For more options and information about accessing Yocto Project related repositories, see the "Locating Yocto Project Source Files" section in the Yocto Project Development Tasks Manual.
@@ -118,7 +126,9 @@ Initialize the Build Environment: From within the poky directory, run the oe-ini
      For more information about OpenEmbedded see their website:
          http://www.openembedded.org/
 
-
+<p align="center">
+  <img src="https://github.com/SuruchiParashar/Yocto-Project/blob/master/3.PNG" />
+</p>
      ### Shell environment set up for builds. ###
 
      You can now run 'bitbake <target>'
@@ -130,6 +140,10 @@ Initialize the Build Environment: From within the poky directory, run the oe-ini
          meta-ide-support
 
      You can also run generated qemu images with a command like 'runqemu qemux86-64'
+     
+<p align="center">
+  <img src="https://github.com/SuruchiParashar/Yocto-Project/blob/master/13.PNG" />
+</p>
                     
 Among other things, the script creates the Build Directory, which is build in this case and is located in the Source Directory. After the script runs, your current working directory is set to the Build Directory. Later, when the build completes, the Build Directory contains all the files created during the build.
 
